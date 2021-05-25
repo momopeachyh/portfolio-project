@@ -1,13 +1,13 @@
 body {
   background-color: black;
   color: #ede7e0;
-  /* text-align: center; */
 }
 
 .container {
   display: block;
   margin: 0 auto;
   width: 750px;
+  font-family: "Oxygen", sans-serif;
 }
 
 /* .hero {
