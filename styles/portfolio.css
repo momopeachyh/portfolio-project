@@ -1,6 +1,7 @@
 :root {
   --text-color: #ede7e0;
   --accent-color: #ff3366;
+  --font-family: ;
 }
 
 .text-color {
@@ -23,9 +24,7 @@ body {
   font-family: "Oxygen", sans-serif;
 }
 
-/* .hero {
-  padding: 0px 60px;
-} */
+/* homepage */
 
 .hero h1,
 .hero h2 {
@@ -41,11 +40,33 @@ body {
   width: 100px;
 }
 
-a {
-  color: var(--text-color);
+/* .section-heading {
+  color: var(--accent-color);
+} */
+
+.app-heading {
+  margin: 5px 0 2px;
 }
 
-a:hover {
+.btn {
+  background-color: black;
+  border: 1px solid var(--accent-color);
   color: var(--accent-color);
-  text-decoration: none;
+  padding: 6px 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--text-color);
+  border: 1px solid var(--text-color);
+  color: black;
+}
+
+.portfolio img {
+  border-radius: 10px;
+}
+
+.portfolio .btn {
+  font-size: 12px;
+  padding: 2px 8px;
 }
