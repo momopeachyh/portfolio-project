@@ -1,9 +1,14 @@
 :root {
   --text-color: #ede7e0;
+  --accent-color: #ff3366;
 }
 
 .text-color {
   color: var(--text-color) !important;
+}
+
+.accent-color:hover {
+  color: var(--accent-color) !important;
 }
 
 body {
@@ -37,11 +42,10 @@ body {
 }
 
 a {
-  color: #ff3366;
-  text-decoration: none;
+  color: var(--text-color);
 }
 
 a:hover {
-  color: #ff3366;
-  text-decoration: underline;
+  color: var(--accent-color);
+  text-decoration: none;
 }
