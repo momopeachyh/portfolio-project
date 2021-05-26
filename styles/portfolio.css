@@ -1,6 +1,14 @@
+:root {
+  --text-color: #ede7e0;
+}
+
+.text-color {
+  color: var(--text-color) !important;
+}
+
 body {
   background-color: black;
-  color: #ede7e0;
+  color: var(--text-color);
 }
 
 .container {
