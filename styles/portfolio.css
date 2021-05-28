@@ -5,12 +5,14 @@
 }
 
 .text-color,
-.link-icon a {
+.link-icon a,
+footer a {
   color: var(--text-color) !important;
 }
 
 .accent-color:hover,
-.link-icon a:hover {
+.link-icon a:hover,
+footer a:hover {
   color: var(--accent-color) !important;
 }
 
@@ -79,4 +81,8 @@ h1 {
 
 .link-icon {
   font-size: 28px;
+}
+
+footer p {
+  font-size: 12px;
 }
