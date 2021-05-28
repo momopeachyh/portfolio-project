@@ -4,11 +4,13 @@
   --font-family: ;
 }
 
-.text-color {
+.text-color,
+.link-icon a {
   color: var(--text-color) !important;
 }
 
-.accent-color:hover {
+.accent-color:hover,
+.link-icon a:hover {
   color: var(--accent-color) !important;
 }
 
@@ -24,7 +26,7 @@ body {
 .container {
   display: block;
   margin: 0 auto;
-  width: 750px;
+  max-width: 750px;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -73,4 +75,8 @@ h1 {
 .portfolio .btn {
   font-size: 12px;
   padding: 2px 8px;
+}
+
+.link-icon {
+  font-size: 28px;
 }
