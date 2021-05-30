@@ -9,11 +9,6 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap"
@@ -32,40 +27,17 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid nav-container">
-          <a class="navbar-brand text-color accent-color" href="/">HW</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-color accent-color"
-                  aria-current="page"
-                  href="/"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link accent-color" href="/portfolio.html"
-                  >Portfolio</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="hero mt-4">
+      <div class="container-navbar mt-3">
+        <nav class="d-flex justify-content-between">
+          <p class="nav-monogram"><a href="/">HW</a></p>
+          <ul>
+            <li><a href="/" class="pe-2 active">Home</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero mt-3">
         <div class="row">
           <div class="col-2">
             <img
@@ -113,12 +85,12 @@
             <a
               href="https://www.linkedin.com/in/heidi-willden-7aa59317a/"
               target="_blank"
-              title="Linkedin profile"
+              title="LinkedIn profile"
               ><i class="fab fa-linkedin-in"></i
             ></a>
           </div>
           <div class="link-icon pe-4">
-            <a href="mailto:heidi.willden@me.com" title="email"
+            <a href="mailto:heidi.willden@me.com" title="Email"
               ><i class="far fa-envelope"></i
             ></a>
           </div>
