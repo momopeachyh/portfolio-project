@@ -6,6 +6,7 @@
 
 a {
   color: var(--text-color);
+  transition: all 150ms ease-in-out;
 }
 
 a:hover {
@@ -13,7 +14,16 @@ a:hover {
 }
 
 .nav-monogram a {
+  border: 1px solid var(--text-color);
+  border-radius: 2px;
+  font-family: "Mate SC", serif;
   font-size: 30px;
+  padding: 2px 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.nav-monogram a:hover {
+  border: 1px solid var(--accent-color);
 }
 
 ul {
@@ -61,10 +71,6 @@ h1 {
 .hero-img {
   width: 100px;
 }
-
-/* .section-heading {
-  color: var(--accent-color);
-} */
 
 .app-heading {
   margin: 5px 0 2px;
