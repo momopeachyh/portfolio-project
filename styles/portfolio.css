@@ -106,3 +106,17 @@ h1 {
 footer p {
   font-size: 12px;
 }
+
+@media (max-width: 540px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .hero-text h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
