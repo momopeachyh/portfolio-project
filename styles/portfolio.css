@@ -16,7 +16,7 @@ a:hover {
 .nav-monogram a {
   border: 1px solid var(--text-color);
   border-radius: 2px;
-  font-family: "Mate SC", serif;
+  font-family: serif;
   font-size: 30px;
   padding: 2px 10px;
   transition: all 150ms ease-in-out;
